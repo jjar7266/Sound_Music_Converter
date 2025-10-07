@@ -1,7 +1,8 @@
 # 🎶 Sound/Music Converter
 
-A sleek Python GUI app for converting sound and music files
-using FFmpeg. Built for speed, simplicity, and visual polish.
+<!-- 🔹 Put badges right under the title -->
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)
 
 ## ✨ Features
 - Drag-and-drop support *(coming soon)*
