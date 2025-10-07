@@ -1,5 +1,3 @@
-# 🎶 Sound/Music Converter
-
 <!-- Banner -->
 <h1 align="center">🎵🔊 Sound & Music Converter 🔊🎵</h1>
 <p align="center">
@@ -38,4 +36,5 @@
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
 
