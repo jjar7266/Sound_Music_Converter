@@ -24,4 +24,22 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+THE SOFTWARE.---
+
+## 🙌 Credits & Acknowledgments
+
+- 🎥 **FFmpeg** — the powerhouse behind all reliable audio conversions  
+- 🐍 **Python** — the language that makes this project possible  
+- 💡 Inspiration from the open‑source community and countless late‑night debugging sessions  
+- 👨‍💻 Developed and maintained by [Joe Ruiz](https://github.com/jjar7266)
+
+---
+
+## 📜 License
+
+This project is licensed under the terms of the **MIT License**.  
+See the [LICENSE](./LICENSE) file for full details.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+</p>

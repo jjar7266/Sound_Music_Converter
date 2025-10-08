@@ -1,47 +1,40 @@
 <!-- Banner -->
 <h1 align="center">🎵🔊 Sound & Music Converter 🔊🎵</h1>
 <p align="center">
-  <i>A polished, user‑friendly audio converter powered by FFmpeg</i><br>
-  <b>Fast • Reliable • Intuitive</b>
+  <i>A lightweight, cinematic audio converter powered by FFmpeg</i><br>
+  <b>Simple • Reliable • Polished</b>
 </p>
 
 ---
 
 <p align="center">
+  <!-- License badge links to LICENSE file -->
   <a href="./LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
   </a>
+  <!-- Python badge links to python.org -->
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python" alt="Python">
   </a>
-  <a href="#-roadmap">
-    <img src="https://img.shields.io/badge/Status-Stable-brightgreen" alt="Project Status">
-  </a>
 </p>
 
----
 
 ## ✨ Features
+- Drag-and-drop support *(coming soon)*
+- Batch conversion
+- Format selection
+- Output folder access
+- File validation
+- Splash screen with animated banner
 
-- 🎚 Convert between popular formats (MP3, WAV, OGG, FLAC, etc.)
-- 📂 **Drag‑and‑drop support** — drop files directly into the app window
-- 📦 Batch conversion for multiple files at once
-- 📁 Automatic output folder access after conversion
-- ✅ Input validation and error handling
-- 📊 Progress bar for long conversions
-- 💾 “Save As” dialog for custom output paths
-- 🎬 Cinematic splash screen and polished GUI launch
+## 🛠 Requirements
+- Python 3.x
+- FFmpeg (installed and added to system PATH)
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.10+  
-- FFmpeg installed and available in your system PATH
-
-### Installation
+## 🚀 Setup
 ```bash
-git clone https://github.com/jjar7266/Sound_Music_Converter.git
-cd Sound_Music_Converter
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+
