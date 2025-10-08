@@ -4,6 +4,15 @@ from tkinterdnd2 import TkinterDnD, DND_FILES
 from PIL import Image, ImageTk
 import subprocess
 import os
+import sys
+
+def resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller"""
+    try:
+        base_path = sys._MEIPASS  # PyInstaller sets this at runtime
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 SUPPORTED_EXTENSIONS = (
     ".mp3", ".wav", ".ogg", ".flac", ".m4a", ".aac", ".wma", ".aiff", ".alac", ".opus"
@@ -16,7 +25,7 @@ def show_splash(callback):
     splash.geometry("400x350+500+300")
     splash.configure(bg="#2c2f33")
 
-    gif_path = "musicNotes.gif"
+    gif_path = resource_path("musicNotes.gif")
     gif = Image.open(gif_path)
     frames = []
     try:
