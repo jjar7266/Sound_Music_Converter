@@ -9,7 +9,7 @@ import sys
 def resource_path(relative_path):
     """Get absolute path to resource, works for dev and for PyInstaller"""
     try:
-        base_path = sys._MEIPASS  # PyInstaller sets this at runtime
+        base_path = sys._MEIPASS # type: ignore[attr-defined]
     except Exception:
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
@@ -116,7 +116,7 @@ def launch_gui():
         justify="center"
     )
     drop_label.pack(expand=True, fill="both", padx=20, pady=20)
-    drop_label.drop_target_register(DND_FILES)
+    drop_label.drop_target_register(DND_FILES) # type: ignore
     drop_label.bind("<Enter>", lambda e: drop_label.configure(bg="#3a3f44"))
     drop_label.bind("<Leave>", lambda e: drop_label.configure(bg="#23272a"))
 
@@ -170,7 +170,7 @@ def launch_gui():
         file_path = event.data.strip("{}")
         convert_audio(file_path)
 
-    drop_label.dnd_bind("<<Drop>>", handle_drop)
+    drop_label.dnd_bind("<<Drop>>", handle_drop) # type: ignore
 
     root.mainloop()
 
