@@ -65,4 +65,4 @@ pip install -r requirements.txt
 - Run SoundMusicConverter_v1.1.exe
 No Python setup required — just click and convert.
 
-
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-red)](https://github.com/sponsors/jjar7266)
