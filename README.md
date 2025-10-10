@@ -50,7 +50,7 @@ This release marks the first fully packaged version — no Python required, just
 - Python 3.11+
 - FFmpeg installed and added to system PATH
 
----
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-red)](https://github.com/sponsors/jjar7266)
 
 ## ⚙️ Setup (for developers)
 
@@ -65,4 +65,4 @@ pip install -r requirements.txt
 - Run SoundMusicConverter_v1.1.exe
 No Python setup required — just click and convert.
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-red)](https://github.com/sponsors/jjar7266)
+
