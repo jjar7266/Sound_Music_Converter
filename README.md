@@ -1,5 +1,7 @@
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤️-red)](https://github.com/sponsors/jjar7266)
 
+buymeacoffee.com/jjar7266
+
 <!-- Banner -->
 <h1 align="center">🎵🔊 Sound & Music Converter 🔊🎵</h1>
 <p align="center">
@@ -53,6 +55,8 @@ This release marks the first fully packaged version — no Python required, just
 - FFmpeg installed and added to system PATH
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤️-red)](https://github.com/sponsors/jjar7266)
+
+buymeacoffee.com/jjar7266
 
 ## ⚙️ Setup (for developers)
 
