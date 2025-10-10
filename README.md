@@ -18,23 +18,51 @@
   </a>
 </p>
 
+# 🎶 Sound Music Converter
+
+**Convert your sounds with style — lightweight, cinematic, and fully packaged.**  
+Simple • Reliable • Polished
+
+---
+
+## 🚀 Overview
+
+**Sound Music Converter** is a fast, branded audio utility powered by FFmpeg.  
+Built for creators, musicians, and developers who want clean conversions with zero setup.
+
+This release marks the first fully packaged version — no Python required, just download and run.
+
+---
 
 ## ✨ Features
-- Drag-and-drop support *(coming soon)*
-- Batch conversion
-- Format selection
-- Output folder access
-- File validation
-- Splash screen with animated banner
 
-## 🛠 Requirements
-- Python 3.x
-- FFmpeg (installed and added to system PATH)
+- 🎵 Drag-and-drop support *(now live in v1.1)*
+- 📁 Batch conversion with format selection
+- 🎯 Output folder access and file validation
+- 🖼️ Splash screen with animated banner
+- 🧠 Smart asset bundling for reliable loading
+- 🛠️ Developer-friendly repo with build instructions
 
-## 🚀 Setup
+---
+
+## 🧪 Requirements (for developers)
+
+- Python 3.11+
+- FFmpeg installed and added to system PATH
+
+---
+
+## ⚙️ Setup (for developers)
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+ 📦 How to Use (for users)
+- Download the latest release .zip from Releases
+- Extract the zip file
+- Run SoundMusicConverter_v1.1.exe
+No Python setup required — just click and convert.
 
 
