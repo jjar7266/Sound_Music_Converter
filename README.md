@@ -1,6 +1,12 @@
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤️-red)](https://github.com/sponsors/jjar7266)
 
-buymeacoffee.com/jjar7266
+
+
+<a href="buymeacoffee.com/jjar7266" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174">
+</a>
+
+
 
 <!-- Banner -->
 <h1 align="center">🎵🔊 Sound & Music Converter 🔊🎵</h1>
@@ -56,7 +62,9 @@ This release marks the first fully packaged version — no Python required, just
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤️-red)](https://github.com/sponsors/jjar7266)
 
-buymeacoffee.com/jjar7266
+<a href="buymeacoffee.com/jjar7266" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174">
+</a>
 
 ## ⚙️ Setup (for developers)
 
